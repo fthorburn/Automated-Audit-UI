@@ -229,7 +229,7 @@ server <- function(input, output) {
     shared_data$js_data
   })
   
-  #prting out A# list for UCLS instructions
+  #printing out A# list for UCLS instructions
   output$grab <- renderText({
     
     #create a string of A#s seperated by commas and a space
